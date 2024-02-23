@@ -27,4 +27,7 @@ clean:
 fmt:
 	clang-format -i src/*.c
 
-.PHONY: test clean install fmt
+lint: $(SOURCES)
+	clang-tidy -checks=cert-* --warnings-as-errors=* $(SOURCES)
+
+.PHONY: test clean install fmt lint

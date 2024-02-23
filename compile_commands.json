@@ -1,0 +1,6 @@
+[
+  { "directory": "/home/takana/git/compiler_book_again/",
+    "command": "/usr/bin/gcc -std=c11 -g -static -Wall ./src/main.c",
+    "file": "src/main.c"
+  }
+]
