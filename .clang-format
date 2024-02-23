@@ -1,0 +1,24 @@
+BasedOnStyle: Google
+
+IndentWidth: 4
+Language: Cpp
+Standard: Cpp11
+TabWidth: 4
+UseTab: Never
+
+AlignAfterOpenBracket: BlockIndent
+AlignTrailingComments: true
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: false
+AlignEscapedNewlines: Left
+AlignOperands: Align
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: WithoutElse
+BreakBeforeBraces: Attach
+ColumnLimit: 0
+SpaceAfterCStyleCast: true
+SpaceAfterLogicalNot: false
+SpaceBeforeParens: ControlStatements
+UseCRLF: false
