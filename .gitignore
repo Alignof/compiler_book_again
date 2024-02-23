@@ -52,3 +52,7 @@ Mkfile.old
 dkms.conf
 
 cc_sakura2
+tmp*
+a.out
+*.s
+.gdb_history
