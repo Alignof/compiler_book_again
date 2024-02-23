@@ -14,7 +14,6 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.c
 	@[ -d $(OBJDIR) ]
 	$(CC) $(CFLAGS) $(INCLUDE) -o $@ -c $<
 
-
 install: $(OBJECTS)
 	$(CC) -O2 -o $(TARGET) $^ $(LDFLAGS)
 
@@ -24,3 +23,8 @@ test: $(TARGET)
 clean:
 	rm -f cc_sakura *.o *.s *~ tmp* *.txt *.out child* gen*
 	rm -f $(OBJECTS) $(TARGET)
+
+fmt:
+	clang-format -i src/*.c
+
+.PHONY: test clean install fmt
