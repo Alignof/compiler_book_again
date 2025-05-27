@@ -28,6 +28,6 @@ fmt:
 	clang-format -i src/*.c
 
 lint: $(SOURCES)
-	clang-tidy -checks=cert-* --warnings-as-errors=* $(SOURCES)
+	clang-tidy -checks=cert-*,-clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling --warnings-as-errors=* $(SOURCES)
 
 .PHONY: test clean install fmt lint

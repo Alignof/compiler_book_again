@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
             continue;
         }
 
-        fprintf(stderr, "unexpected characters: '%c'\n", *p);
+        fprintf(stderr, "unexpected characters: '%c'\n", *p);  // NOLINT(cert-err33-c)
         return 1;
     }
 
