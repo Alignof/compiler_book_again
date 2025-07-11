@@ -7,7 +7,6 @@ TabWidth: 4
 UseTab: Never
 
 AlignAfterOpenBracket: BlockIndent
-AlignTrailingComments: true
 AlignConsecutiveMacros: true
 AlignConsecutiveAssignments: false
 AlignEscapedNewlines: Left

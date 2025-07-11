@@ -5,3 +5,4 @@ Compiler book again!
 
 - [x] ([step0](https://github.com/Alignof/compiler_book_again/wiki/step0)): 「はじめに」と「機械語とアセンブラ」を読む．
 - [x] [step1](https://github.com/Alignof/compiler_book_again/wiki/step1): 整数1個をコンパイルする言語の作成
+- [x] [step2](https://github.com/Alignof/compiler_book_again/wiki/step2): 加減算のできるコンパイラの作成
